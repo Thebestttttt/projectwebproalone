@@ -12,6 +12,8 @@
         }
         nav {
             width: 100%;
+            /* max-width: 1200px; */
+            margin: 0 auto;
             padding: 1% 0;
             background: linear-gradient(90deg, rgba(0, 0, 0, 0.9), rgba(34, 34, 34, 0.9));
             color: white;
@@ -70,7 +72,10 @@
             display: flex;
             flex-direction: column;
             box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.3);
-        }
+            padding: 20px;
+            width: 80%;
+            max-width: 600px;
+                }
         .about-text h1 {
             font-size: 350%;
         }
@@ -260,6 +265,12 @@
             color: #ffa66b;
             
         }
+        .taga{
+            display: flex;
+            flex-direction: column;
+            word-wrap: break-word;
+
+        }
         @media screen and (max-width: 700px){
             .Aboutus{
                 width: 100%;
@@ -270,6 +281,42 @@
             .menu-slider{
                 grid-template-columns: 1fr;
             }
+            .about-text {
+                width: 100%;
+                font-size: 90%;
+            }
+        }
+        @media screen and (max-width: 430px){
+            .Aboutus{
+                width: 100%;
+            }
+            .Menu{
+                width: 100%;
+            }
+            .menu-slider{
+                grid-template-columns: 1fr;
+            }
+            .about-text {
+                width: 100%;
+                font-size: 70%;
+            }
+            
+        }
+        @media screen and (max-width: 390px) {
+            .Aboutus{
+                width: 100%;
+            }
+            .Menu{
+                width: 100%;
+            }
+            .menu-slider{
+                grid-template-columns: 1fr;
+            }
+            .about-text {
+                width: 100%;
+                font-size: 60%;
+            }
+            
         }
 
     </style>
@@ -329,7 +376,7 @@
         <div class="hr">
             <a href="https://www.sanook.com/travel/1442375/">https://www.sanook.com/travel/1442375/</a>
             <br>
-            <a href="https://www.kasettambon.com/tag/%e0%b8%ad%e0%b8%b2%e0%b8%ab%e0%b8%b2%e0%b8%a3%e0%b8%9b%e0%b8%a3%e0%b8%b0%e0%b8%88%e0%b8%b3%e0%b8%88%e0%b8%b1%e0%b8%87%e0%b8%ab%e0%b8%a7%e0%b8%b1%e0%b8%94/">https://www.kasettambon.com/tag/%e0%b8%ad%e0%b8%b2%e0%b8%ab%e0%b8%b2%e0%b8%a3%e0%b8%9<br>%e0%b8%a3%e0%b8%b0%e0%b8%88%e0%b8%b3%e0%b8%88%e0%b8%b1%e0%b8%87%e0%<br>b8%ab%e0%b8%a7%e0%b8%b1%e0%b8%94/</a>
+            <a class="taga" href="https://www.kasettambon.com/tag/%e0%b8%ad%e0%b8%b2%e0%b8%ab%e0%b8%b2%e0%b8%a3%e0%b8%9b%e0%b8%a3%e0%b8%b0%e0%b8%88%e0%b8%b3%e0%b8%88%e0%b8%b1%e0%b8%87%e0%b8%ab%e0%b8%a7%e0%b8%b1%e0%b8%94/">https://www.kasettambon.com/tag/%e0%b8%ad%e0%b8%b2%e0%b8%ab%e0%b8%b2%e0%b8%a3%e0%b8%9<br>%e0%b8%a3%e0%b8%b0%e0%b8%88%e0%b8%b3%e0%b8%88%e0%b8%b1%e0%b8%87%e0%<br>b8%ab%e0%b8%a7%e0%b8%b1%e0%b8%94/</a>
         </div>  
     <script>
         function goToMenu() {
